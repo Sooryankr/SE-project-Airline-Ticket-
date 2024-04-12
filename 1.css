@@ -1,0 +1,89 @@
+#Box1{
+    background-color: black;
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100% 
+}
+#Box2{
+    background-color: rgb(97, 151, 182);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+    
+}
+#Box3{
+    height: auto;
+    background-color: rgb(97, 151, 182);
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 200px;
+    border-radius: 12%;
+
+}
+.fontH{
+    color: rgb(9, 20, 12);
+    font-size: larger;
+   margin: auto;
+   padding-top: 16px;
+}
+
+
+  
+  div.elem-group {
+    margin: 20px 0;
+    
+  }
+  
+ 
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    width: 200PX;
+    background: rgba(55, 255, 0, 0.634);
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    margin-left: 50PX;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }

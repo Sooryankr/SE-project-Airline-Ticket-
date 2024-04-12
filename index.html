@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="1.css">
+    <title>Airline Ticket Booking</title>
+    
+
+</head>
+    <body>  
+        <div id="Box1"> 
+            <div id ="Box2">
+                <H5 class="fontH"> 
+                    AIRLINE TICKET BOOKING
+                </H5>
+
+            </div>
+            <div id="Box3" >
+
+
+
+                <form action="reservation.php" method="post">
+  <div class="elem-group">
+    <label for="name">FROM:</label>
+    <input type="text" id="name" name="visitor_name"  pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">TO:</label>
+    <input type="text" id="email" name="visitor_email" 
+ 
+  <hr>
+
+  <div class="elem-group inlined">
+    <label for="checkin-date">Date</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+  <div class="elem-group inlined">
+   
+  </div>
+  <div class="elem-group">
+    <label for="room-selection"></label>
+    <select id="room-selection" name="room_preference" required>
+        <option value="">CLASS</option>
+        <option value="connecting">SL</option>
+        <option value="adjoining">3A</option>
+        <option value="adjacent">2A</option>
+        <option value="adjacent">1A</option>
+    </select>
+  </div>
+  <hr>
+  
+  <button type="submit">Book</button>
+</form>
+            
+                 
+
+         </div>
+        
+
+    </body>
+</html>
