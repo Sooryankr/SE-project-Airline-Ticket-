@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html >
     <head>
         <link rel="stylesheet" type="text/css" href="1.css">
     <title>Airline Ticket Booking</title>
@@ -8,6 +8,7 @@
 </head>
     <body>  
         <div id="Box1"> 
+          
             <div id ="Box2">
                 <H5 class="fontH"> 
                     AIRLINE TICKET BOOKING
@@ -18,32 +19,40 @@
 
 
 
-                <form action="reservation.php" method="post">
+                <form >
   <div class="elem-group">
-    <label for="name">FROM:</label>
-    <input type="text" id="name" name="visitor_name"  pattern=[A-Z\sa-z]{3,20} required>
+    <label class="f" for="name">FROM:</label>
+    <input type="text" id="name" name="visitor_name"  >
   </div>
   <div class="elem-group">
-    <label for="email">TO:</label>
+    <label class="f" for="email">TO:</label>
     <input type="text" id="email" name="visitor_email" 
  
-  <hr>
+   <br>
 
-  <div class="elem-group inlined">
-    <label for="checkin-date">Date</label>
-    <input type="date" id="checkin-date" name="checkin" required>
+  <div class="elem-group ">
+    <label class="f" for="checkin-date">Date</label>
+    <input type="date" id="checkin-date" >
   </div>
   <div class="elem-group inlined">
    
   </div>
   <div class="elem-group">
-    <label for="room-selection"></label>
-    <select id="room-selection" name="room_preference" required>
-        <option value="">CLASS</option>
-        <option value="connecting">SL</option>
-        <option value="adjoining">3A</option>
-        <option value="adjacent">2A</option>
-        <option value="adjacent">1A</option>
+    <label class="f" for="adult">Adults</label>
+    <input type="number" placeholder="Above 12 yrs"   min="1" required>
+  </div>
+  <div class="elem-group ">
+    <label class="f" for="child">Children</label>
+    <input type="number" id="child" placeholder="Below 12yrs"  min="0" required>
+  </div>
+  <div class="elem-group">
+    <label class="f" for="tier-selection">CHOOSE CABIN CLASS</label>
+    <select id="tier-selection" name="room_preference" required>
+      
+        <option >Economy/Premium Economy</option>
+        <option >Premium Economy</option>
+        <option >Bussiness</option>
+        
     </select>
   </div>
   <hr>
